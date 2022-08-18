@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+}
+
+.clr {
+  clear: both;
+}
+#home {
+  height: 125%;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-color {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*header*/
+
+.header {
+  padding: 20px 70px 0px;
+}
+.logo {
+  float: left;
+}
+.nav-info {
+  float: right;
+}
+.logo img {
+  width: 176px;
+}
+.nav-info li {
+  font-size: 18px;
+  padding-right: 25px;
+  padding-top: 10px;
+  list-style-type: none;
+  float: left;
+}
+.nav-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*caption*/
+
+.caption {
+  font-family: "Alegreya Sans", sans-serif;
+  padding-top: 190px;
+  color: #fff;
+  text-align: center;
+}
+.caption h1 {
+  font-family: "Alegreya", serif;
+  font-size: 80px;
+  padding: 10px 0px;
+}
+.p-data {
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 2em;
+  font-size: 20px;
+}
+.bt1,
+.bt2 {
+  color: #fff;
+  border: #fff solid 1px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 30px 4px;
+  padding: 20px 30px;
+}
+.bt1 {
+  border: none;
+  background-color: #8e7754;
+}
+
+/* section 1 */
+
+.title-content {
+  font-size: 32px;
+  padding-bottom: 22px;
+}
+#about {
+  margin: 80px;
+}
+.sec1-img,
+.sec1-info-hero {
+  width: 52%;
+  float: left;
+}
+.sec1-img {
+  width: 48%;
+}
+
+.sec1-img img {
+  width: 100%;
+}
+.sec1-info {
+  padding-top: 60px;
+  padding-left: 80px;
+}
+.p-data-se1,
+.p-data-se {
+  padding: 15px 0px;
+  color: #686868;
+  font-size: 16px;
+  line-height: 2em;
+}
+.sec1-icon-data-hero {
+  height: 50px;
+  margin-top: 15px;
+}
+.icon-style {
+  font-size: 20px;
+  color: #8e7754;
+  border-radius: 50px;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+  float: left;
+}
+.info-icon {
+  padding-top: 15px;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #686868;
+}
+/*section2*/
+.ourlocation {
+  padding: 80px;
+  background-color: #f8f8f8;
+}
+.sec2-img,
+.sec2-info-hero {
+  width: 52%;
+  float: right;
+}
+.sec2-img {
+  width: 48%;
+}
+.sec2-info {
+  padding: 80px 80px 0px 0px;
+}
+.sec2-img img {
+  width: 100%;
+}
+
+/* section3 */
+#gallery {
+  padding: 40px;
+  text-align: center;
+}
+.hero-item-baking {
+  width: 33.3%;
+  padding-top: 40px;
+  float: left;
+}
+.item-baking {
+  padding: 20px;
+}
+.item-baking img {
+  padding-bottom: 40px;
+  width: 100%;
+}
+.title-p-item {
+  font-size: 24px;
+}
+
+/*section4*/
+#contact {
+  height: 75%;
+  background-color: #f8f8f8;
+  padding: 100px 80px;
+}
+.con-info {
+  width: 50%;
+  float: left;
+}
+.google-map {
+  float: right;
+  width: 40%;
+}
+.icon-style-sec4 {
+  border: none;
+  padding: 10px;
+  color: #f8f8f8;
+  background-color: #8e7754;
+}
+.sec4-icon-data-hero {
+  padding-top: 15px;
+}
+
+/* googlemap */
+
+.google-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+
+/*footer*/
+.footer {
+  overflow: hidden;
+  padding: 50px;
+  color: #f8f8f8;
+  background-color: #403d38;
+}
+.footer h4 {
+  margin-bottom: 20px;
+}
+.con-footer-hero {
+  width: 25%;
+  float: left;
+}
+.con-footer {
+  padding: 20px;
+}
+.p-data-se-item {
+  padding-left: 20px;
+  color: #686868;
+}
+.con-footer i {
+  float: left;
+  color: #686868;
+}
+.item {
+  margin-top: 30px;
+}
+.footer hr {
+  margin: 10px;
+  border: 1px solid #686868;
+}
+.con-end-photo {
+  background-image: url(images/contact-details-map.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.fo-end {
+  padding: 80px 0px;
+  text-align: center;
+  background-color: #353330;
+}
+.fo-end p {
+  color: #686868;
+  padding-top: 30px;
+}
+.fo-end i {
+  margin: 25px 5px;
+  font-size: 30px;
+  color: #8c8a86;
+}
